@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+{% block content %}
+<h1> Base de datos de Seguros de personas</h1>
+<p> Aplicación web para almacenar las planillas de cancelación de deudas </p> 
+<h2>Elija una una opción a realizar:</h2>
+
+<nav>
+    <a href="{{ url_for('loadfile') }}">Cargar Archivo</a>
+    
+    <a href="{{ url_for('about') }}">About</a>
+</nav>
+
+{% endblock %}
